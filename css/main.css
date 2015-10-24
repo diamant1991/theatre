@@ -534,6 +534,42 @@ body {
 .show.orange .tickets {
   background-color: #ffb298;
 }
+.show.purple {
+  background-color: #9932ff;
+}
+.show.purple .name-show {
+  background-color: #9932ff;
+}
+.show.purple .more {
+  background-color: #b770ff;
+}
+.show.purple .tickets {
+  background-color: #d6adff;
+}
+.show.green {
+  background-color: #009999;
+}
+.show.green .name-show {
+  background-color: #009999;
+}
+.show.green .more {
+  background-color: #4db7b7;
+}
+.show.green .tickets {
+  background-color: #7fcbcb;
+}
+.show.yellow {
+  background-color: #ffcc00;
+}
+.show.yellow .name-show {
+  background-color: #ffcc00;
+}
+.show.yellow .more {
+  background-color: #ffdb4d;
+}
+.show.yellow .tickets {
+  background-color: #ffe57f;
+}
 .show img {
   max-width: 100%;
   height: auto;
@@ -612,4 +648,9 @@ body {
   width: 270px;
   margin: auto;
   margin-top: 130px;
+}
+.region.second .advert {
+  margin-top: 0;
+  height: 375px;
+  margin-bottom: 20px;
 }
