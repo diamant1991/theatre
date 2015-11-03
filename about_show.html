@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/carousel.css">
+	<link rel="stylesheet" href="css/modal.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/modernizr-2.8.3.min.js"></script>	
 </head>
@@ -188,7 +189,7 @@
 						</li>
 						<li>
 							<p>Гена</p>
-							<a href="#"><strong>Константин Юшкевич</strong></a>
+							<a data-toggle="modal" data-target="#actor-modal"><strong>Константин Юшкевич</strong></a>
 						</li>
 					</ul>
 				</div>
@@ -262,6 +263,35 @@
 			<p>Вверх</p>
 		</div>
 	</div>
+</div>
+
+<div class="modal actor-modal fade" id="actor-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<button type="button" class="actor-close" data-dismiss="modal" aria-label="Close">
+				<img src="images/actor-close.png" height="18" width="19" alt="">
+			</button>
+			<div class="actor-img">
+				<img src="images/actor.jpg" height="180" width="120" alt="">
+			</div>
+			<div class="actor-name">
+				Константин <br>Юшкевич
+			</div>
+			<div class="actor-info">
+				Окончил РАТИ (ГИТИС) в 1996 г. (мастерская М. Захарова).
+				В этом же году был принят в труппу театра «Ленком», где работал до 2003 г. 
+				В настоящее время свободный художник.
+			</div>
+			<div class="actor-show">
+				<h6>Другие спектакли:</h6>
+				<p><strong>«Ladies’ Night. Только для женщин»</strong> Грехем</p>
+				<p><strong>«История любви»</strong> Стефан</p>
+			</div>
+		</div>
+		<div class="actor-link">
+			<a href="#">На персональную страницу</a>
+		</div>
+  </div>
 </div>
 
 
