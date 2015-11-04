@@ -161,6 +161,9 @@ h2.bold b {
   background-color: #ececec;
   min-height: 100%;
 }
+.wrapper.main-wrapper {
+  background-color: #d6d6d6;
+}
 .col-29 {
   float: left;
   width: 29%;
@@ -185,7 +188,9 @@ h2.bold b {
   background: #ff0000;
   font-size: 24px;
   font-family: 'HelveticaNeueCyrBlack';
-  padding: 5px 25px;
+  padding: 0 25px;
+  height: 34px;
+  line-height: 34px;
   margin-top: 88px;
 }
 .date-time .date {
@@ -205,13 +210,20 @@ h2.bold b {
   font-family: 'HelveticaNeueCyrBlack';
   margin-top: 28px;
 }
+.name-show.main-name-show {
+  height: 60px;
+  padding: 0;
+  line-height: 60px;
+}
 .place {
   font-size: 18px;
   font-family: 'HelveticaNeueCyrLight';
   text-align: center;
   background: #ff0000;
-  padding: 7px 0;
+  height: 32px;
+  line-height: 32px;
   margin-top: 35px;
+  overflow: hidden;
 }
 .comment {
   background: #ff0000;
@@ -269,12 +281,12 @@ h2.bold b {
   padding: 10px 0;
 }
 .nav {
-  position: fixed;
+  position: absolute;
   z-index: 100;
   left: 0;
   width: 320px;
   background: #ebebeb;
-  height: 100%;
+  min-height: 100%;
   padding-top: 10px;
   visibility: hidden;
   opacity: 0;
@@ -336,7 +348,8 @@ h2.bold b {
   width: 50%;
   float: left;
   margin: 0;
-  padding: 8px 0;
+  height: 34px;
+  line-height: 34px;
 }
 .small-img .date-time {
   width: 50%;
@@ -958,6 +971,16 @@ h2.bold b {
   position: relative;
   margin-bottom: 50px;
 }
+.about-wrapper.journal {
+  min-height: 420px;
+}
+.about-wrapper.journal .about-content {
+  padding-top: 0;
+}
+.about-wrapper.journal .text-comment .title {
+  height: 220px;
+  font-size: 14px;
+}
 .about-content {
   padding-right: 350px;
 }
@@ -1017,6 +1040,12 @@ h2.bold b {
   color: #fff;
   font-family: 'HelveticaNeueCyrLight';
   font-size: 24px;
+}
+.tickets.main-tickets {
+  margin-top: 8px;
+}
+.tickets.main-tickets .tickets-link {
+  padding: 0;
 }
 .tickets.red {
   background-color: #ff7f7f;
@@ -1266,10 +1295,48 @@ h2.bold b {
   line-height: 1.3;
   margin-bottom: 25px;
 }
+.text-container .quote.second {
+  text-align: center;
+  border: 0;
+  padding-left: 0;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.text-container .quote.second .quote-block {
+  display: inline-block;
+  text-align: right;
+  border-right: 20px solid #fff;
+  padding: 20px 0;
+  padding-right: 10px;
+}
 .journal .logo {
   text-align: center;
   padding-top: 10px;
   margin-bottom: 20px;
+}
+.journal .text-container {
+  position: relative;
+  padding-right: 235px;
+}
+.journal .person-aside {
+  position: relative;
+  margin: auto;
+  right: 0;
+}
+.journal .person-aside img {
+  margin-bottom: 0;
+}
+.journal .aside-block {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  width: 235px;
+}
+.journal .show-list {
+  text-align: center;
+  margin-top: 200px;
+  padding: 0 20px;
 }
 .inerview-block {
   text-align: center;
@@ -1308,4 +1375,116 @@ h2.bold b {
 }
 .interview-list a:hover {
   text-decoration: underline;
+}
+.j-social {
+  font-size: 18px;
+}
+.j-social .j-facebook {
+  float: left;
+}
+.j-social .j-facebook img {
+  float: left;
+}
+.j-social .j-vk {
+  float: left;
+  margin-left: 30px;
+}
+.j-social .j-vk img {
+  float: left;
+  position: relative;
+  top: 8px;
+}
+.j-social a {
+  width: 105px;
+  height: 30px;
+  display: block;
+  text-align: center;
+  float: left;
+  line-height: 30px;
+  color: #000;
+  font-family: 'HelveticaNeueCyrLight';
+  background: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.contact-block {
+  margin-bottom: 30px;
+}
+.contact-block .poster-list {
+  text-align: left;
+}
+.contact-desc {
+  font-size: 18px;
+  line-height: 1.2;
+}
+.send-form {
+  margin-top: 20px;
+  width: 270px;
+}
+.send-form input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: 'HelveticaNeueCyrLight';
+}
+.send-form input[type="text"].for-symbol {
+  text-align: center;
+  padding: 0;
+}
+.send-form textarea {
+  width: 100%;
+  height: 260px;
+  resize: none;
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: 'HelveticaNeueCyrLight';
+  padding-top: 8px;
+}
+.send-form .send {
+  width: 100%;
+  height: 30px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 18px;
+  font-family: 'HelveticaNeueCyrLight';
+  color: #000;
+}
+.send-form .send:hover {
+  color: #959595;
+}
+.send-form .send:active {
+  background: #000;
+  color: #fff;
+}
+.input-block {
+  margin-bottom: 7px;
+}
+.symbol {
+  height: 30px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+.next-performances {
+  padding-top: 10px;
+  text-align: center;
+}
+.next-performances a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'HelveticaNeueCyrBold';
+  font-size: 18px;
+  color: #000;
+}
+.next-performances img {
+  margin-top: 5px;
 }

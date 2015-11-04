@@ -13,19 +13,27 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 	<script src="js/modernizr-2.8.3.min.js"></script>	
 </head>
 <body>
 
 <aside class="sidebar">
-	<div class="logo">
-		<a href="#"><img src="images/logo.png" height="151" width="194" alt=""></a>
+	<div class="logo hidden-sm">
+		<a href="#">
+			<img src="images/logo.png" height="151" width="194" alt="">
+		</a>
 	</div>
 	<div class="menu">
-		<div class="title">Меню</div>
+		<div class="title hidden-sm">Меню</div>
 		<span><img src="images/menu.png" height="14" width="26" alt=""></span>
 	</div>
-	<div class="info">
+	<div class="logo visible-sm">
+		<a href="#">
+			<img src="images/small-logo.png" height="46" width="202" alt="">
+		</a>
+	</div>
+	<div class="info hidden-sm">
 		<div class="name">Продюсер <br>Эльшан Мамедов</div>
 		<div class="inquiries">
 			Справки и заказ билетов
@@ -79,7 +87,7 @@
 </nav><!-- nav -->
 
 <div class="wrapper">
-	<div class="small-img" style="background-image: url(images/detail.jpg)">
+	<div class="small-img hidden-xs" style="background-image: url(images/detail.jpg)">
 		<div class="purple clearfix">
 			<div class="col-58">
 				<div class="name-show">

@@ -10,25 +10,35 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="" >
 	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/carousel.css">
 	<link rel="stylesheet" href="css/modal.css">
 	<link rel="stylesheet" href="css/jquery.scrollbar.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 	<script src="js/modernizr-2.8.3.min.js"></script>	
 </head>
 <body>
 
 <aside class="sidebar">
-	<div class="logo">
-		<a href="#"><img src="images/logo.png" height="151" width="194" alt=""></a>
+	<div class="logo hidden-sm">
+		<a href="#">
+			<img src="images/logo.png" height="151" width="194" alt="">
+		</a>
 	</div>
 	<div class="menu">
-		<div class="title">Меню</div>
+		<div class="title hidden-sm">Меню</div>
 		<span><img src="images/menu.png" height="14" width="26" alt=""></span>
 	</div>
-	<div class="info">
+	<div class="logo visible-sm">
+		<a href="#">
+			<img src="images/small-logo.png" height="46" width="202" alt="">
+		</a>
+	</div>
+	<div class="info hidden-sm">
 		<div class="name">Продюсер <br>Эльшан Мамедов</div>
 		<div class="inquiries">
 			Справки и заказ билетов
@@ -79,10 +89,43 @@
 		<li><a href="#">Контакты</a></li>
 		<li><a href="#">Билеты</a></li>
 	</ul>
+
+	<ul class="social small-social visible-sm">
+		<li>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="facebook"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="youtube"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="vk"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="instagram"></span>
+					</div>
+				</div>
+			</a>
+		</li>
+	</ul>
 </nav><!-- nav -->
 
-<div class="wrapper">
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+<div class="wrapper main-wrapper">
+	<div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel" data-interval="false">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 		   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -102,7 +145,7 @@
 			      	</div>
 			      </div>
 			      <div class="col-29">
-			      	<div class="name-show">
+			      	<div class="name-show main-name-show">
 			      		<a class="show-link"  data-toggle="modal" data-target=".modal-show">Игра в правду</a>
 			      	</div>
 			      	<div class="place">Театр им. М. Н. Ермоловой</div>
@@ -112,7 +155,7 @@
 			      	<div class="more">
 			      		<a href="#" class="more-link">Подробнее</a>
 			      	</div>
-			      	<div class="tickets clearfix">
+			      	<div class="tickets main-tickets clearfix">
 			      		<a href="#" class="tickets-link">Билеты</a>
 			      	</div>
 			      </div>
@@ -141,10 +184,136 @@
 		</a>
 	</div>
 
-	<div class="calendar">
+	<div class="calendar hidden-xs">
 		Июнь 2015
 		<div class="next-performances"></div>
 	</div>
+
+	<div id="owl-demo" class="owl-carousel owl-theme visible-xs">
+
+	  <div class="item">
+	  	<div class="show green">
+				<div class="date-show">15 сентября <span>19:00</span></div>
+				<div class="theatre-show">Театр им. М. Н. Ермоловой</div>
+				<div class="img-block">
+					<img src="images/show.jpg" height="180" width="270" alt="">
+				</div>
+				<div class="name-show">
+					<div class="table-block">
+						<div class="block-vertical">Игра в правду</div>
+					</div>
+				</div>
+				<a href="#" class="more">Подробнее</a>
+				<a href="#" class="tickets">Билеты</a>
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="show blue">
+				<div class="date-show">17 сентября 19:00</div>
+				<div class="theatre-show">Театриум на Серпуховке</div>
+				<div class="img-block">
+					<img src="images/show3.jpg" height="181" width="270" alt="">
+				</div>
+				<div class="name-show">
+					<div class="table-block">
+						<div class="block-vertical">Ladies’ night <br><span>Только&nbsp;для женщин</span></div>
+					</div>
+				</div>
+				<a href="#" class="more">Подробнее</a>
+				<a href="#" class="tickets">Билеты</a>
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="show purple">
+				<div class="date-show">15 сентября <span>19:00</span></div>
+				<div class="theatre-show">Театр им. М. Н. Ермоловой</div>
+				<div class="img-block">
+					<img src="images/show.jpg" height="180" width="270" alt="">
+				</div>
+				<div class="name-show">
+					<div class="table-block">
+						<div class="block-vertical">Игра в правду</div>
+					</div>
+				</div>
+				<a href="#" class="more">Подробнее</a>
+				<a href="#" class="tickets">Билеты</a>
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="show red">
+				<div class="date-show">15 сентября <span>19:00</span></div>
+				<div class="theatre-show">Театр им. М. Н. Ермоловой</div>
+				<div class="img-block">
+					<img src="images/show.jpg" height="180" width="270" alt="">
+				</div>
+				<div class="name-show">
+					<div class="table-block">
+						<div class="block-vertical">Игра в правду</div>
+					</div>
+				</div>
+				<a href="#" class="more">Подробнее</a>
+				<a href="#" class="tickets">Билеты</a>
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="show pink">
+				<div class="date-show">16 сентября 19:00</div>
+				<div class="theatre-show">Театр им. М. Н. Ермоловой</div>
+				<div class="img-block">
+					<img src="images/show2.jpg" height="181" width="270" alt="">
+				</div>
+				<div class="name-show">
+					<div class="table-block">
+						<div class="block-vertical">История любви</div>
+					</div>
+				</div>
+				<a href="#" class="more">Подробнее</a>
+				<a href="#" class="tickets">Билеты</a>
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="show orange">
+				<div class="date-show">25 сентября 19:00</div>
+				<div class="theatre-show">Театр им. М. Н. Ермоловой</div>
+				<div class="img-block">
+					<img src="images/show4.jpg" height="181" width="270" alt="">
+				</div>
+				<div class="name-show">
+					<div class="table-block">
+						<div class="block-vertical">Тапёр-шоу</div>
+					</div>
+				</div>
+				<a href="#" class="more">Подробнее</a>
+				<a href="#" class="tickets">Билеты</a>
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="show yellow">
+				<div class="date-show">16 сентября 19:00</div>
+				<div class="theatre-show">Театр им. М. Н. Ермоловой</div>
+				<div class="img-block">
+					<img src="images/show2.jpg" height="181" width="270" alt="">
+				</div>
+				<div class="name-show">
+					<div class="table-block">
+						<div class="block-vertical">История любви</div>
+					</div>
+				</div>
+				<a href="#" class="more">Подробнее</a>
+				<a href="#" class="tickets">Билеты</a>
+			</div>
+	  </div>
+	  
+	 
+	</div>
+
+	<div class="next-performances">
+		<a href="#">
+			Ближайшие спектакли <br>
+			<img src="images/next.png" height="13" width="24" alt="">
+		</a>
+	</div>
+
 </div>
 
 
@@ -219,10 +388,32 @@
 
 
 <script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
 <script src="js/transition.js"></script>
 <script src="js/carousel.js"></script>
 <script src="js/modal.js"></script>
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="js/script.js"></script>
+<script>
+	$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+});
+</script>
 </body>
 </html>
