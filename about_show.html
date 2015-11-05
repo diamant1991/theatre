@@ -10,24 +10,33 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="" >
 	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/carousel.css">
 	<link rel="stylesheet" href="css/modal.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 	<script src="js/modernizr-2.8.3.min.js"></script>	
 </head>
 <body>
 
 <aside class="sidebar">
-	<div class="logo">
-		<a href="#"><img src="images/logo.png" height="151" width="194" alt=""></a>
+	<div class="logo hidden-sm">
+		<a href="#">
+			<img src="images/logo.png" height="151" width="194" alt="">
+		</a>
 	</div>
 	<div class="menu">
-		<div class="title">Меню</div>
+		<div class="title hidden-sm">Меню</div>
 		<span><img src="images/menu.png" height="14" width="26" alt=""></span>
 	</div>
-	<div class="info">
+	<div class="logo visible-sm">
+		<a href="#">
+			<img src="images/small-logo.png" height="46" width="202" alt="">
+		</a>
+	</div>
+	<div class="info hidden-sm">
 		<div class="name">Продюсер <br>Эльшан Мамедов</div>
 		<div class="inquiries">
 			Справки и заказ билетов
@@ -78,11 +87,58 @@
 		<li><a href="#">Контакты</a></li>
 		<li><a href="#">Билеты</a></li>
 	</ul>
+
+	<ul class="social small-social visible-sm">
+		<li>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="facebook"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="youtube"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="vk"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="instagram"></span>
+					</div>
+				</div>
+			</a>
+		</li>
+	</ul>
 </nav><!-- nav -->
 
 
 <div class="wrapper">
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div class="mobile visible-xs">
+		<ul class="breadcrumb">
+			<li>
+				<a href="#">О театре</a>
+			</li>
+			<li>
+				<a href="#">Спектакли</a>
+			</li>
+			<li class="active">Текущий репертуар</li>
+		</ul>
+		<div class="small-slide">
+			<img src="images/slide3.jpg" height="624" width="936" alt="">
+		</div>
+	</div>
+	<div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
@@ -110,7 +166,7 @@
 
 	<div class="about-wrapper red">
 		<header class="about red">
-			<ul class="breadcrumb">
+			<ul class="breadcrumb hidden-xs">
 				<li>
 					<a href="#">О театре</a>
 				</li>
@@ -151,6 +207,57 @@
 			<div class="limitation">
 				<strong>Возрастное ограничение: 16+</strong>
 			</div>
+			<div class="cast visible-xs">
+				<header class="red">
+					<h4>В ролях:</h4>
+				</header>
+				<div class="cast-list red">
+					<ul>
+						<li>
+							<p>Майя</p>
+							<a href="#"><strong>Ирина Апексимова</strong></a>
+						</li>
+						<li>
+							<p>Толя</p>
+							<a href="#"><strong>Гоша Куценко</strong></a>
+						</li>
+						<li>
+							<p>Марк</p>
+							<a href="#"><strong>Дмитрий Марьянов</strong></a>
+						</li>
+						<li>
+							<p>Гена</p>
+							<a data-toggle="modal" data-target="#actor-modal"><strong>Константин Юшкевич</strong></a>
+						</li>
+					</ul>
+				</div>
+				<div class="sidebar-content">
+					<div class="next-show">
+						<h4>Ближайшие спектакли</h4>
+						<div class="preference">
+							<div class="date-time-block clearfix">
+								<div class="date">7 июня</div>
+								<div class="time">19:00</div>
+							</div>
+							<div class="name-theatre">Театр им. М. Н. Ермоловой</div>
+							<a href="#" class="more red">Подробнее</a>
+							<a href="#" class="tickets red">Билеты</a>
+						</div>
+						<div class="preference">
+							<div class="date-time-block clearfix">
+								<div class="date">9 июня</div>
+								<div class="time">19:00</div>
+							</div>
+							<div class="name-theatre">Театр им. М. Н. Ермоловой</div>
+							<a href="#" class="more red">Подробнее</a>
+							<a href="#" class="tickets red">Билеты</a>
+						</div>
+					</div>
+					<div class="trailer">
+						<iframe width="270" height="165" src="https://www.youtube.com/embed/EGmKAqjsOhw" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
 			<div class="text-show">
 				<h3>О спектакле</h3>
 				<p>Четверо однокурсников — три мальчика и девочка — лет около 40-ка, добравшись до седин, играют «в правду». Кто-нибудь играл? В 20 лет все безобидно, вопросы дурацкие, ответы ожидаемые, никакого душевного стриптиза, — всё и так на виду, ну, всплывет что-то вопиющее, но впереди-то целая жизнь, всё исправится и забудется. В 40 — всё иначе…</p>
@@ -168,7 +275,38 @@
 				</ul>
 			</div>
 		</div>
-		<aside class="about-sidebar">
+		<div class="sidebar-content mobile-content visible-xs">
+			<div class="comments">
+				<h4>Комментарии</h4>
+				<textarea placeholder="Ваш комментарий"></textarea>
+			</div>
+			<div class="enter-with">
+				<span>Войти через</span>
+				<ul class="social">
+					<li>
+						<a href="#" class="icon">
+							<div class="icon-table">
+								<div class="block-vertical">
+									<span class="facebook"></span>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="icon">
+							<div class="icon-table">
+								<div class="block-vertical">
+									<span class="vk"></span>
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<input type="submit" value="Отправить без авторизации" class="send-not-reg">
+			<div class="text-comment">
+				<div class="title">Текст комментариев</div>
+			</div>
+		</div>
+		<aside class="about-sidebar hidden-xs">
 			<div class="cast">
 				<header class="red">
 					<h4>В ролях:</h4>

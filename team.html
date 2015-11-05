@@ -10,22 +10,31 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="" >
 	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 	<script src="js/modernizr-2.8.3.min.js"></script>	
 </head>
 <body>
 
 <aside class="sidebar">
-	<div class="logo">
-		<a href="#"><img src="images/logo.png" height="151" width="194" alt=""></a>
+	<div class="logo hidden-sm">
+		<a href="#">
+			<img src="images/logo.png" height="151" width="194" alt="">
+		</a>
 	</div>
 	<div class="menu">
-		<div class="title">Меню</div>
+		<div class="title hidden-sm">Меню</div>
 		<span><img src="images/menu.png" height="14" width="26" alt=""></span>
 	</div>
-	<div class="info">
+	<div class="logo visible-sm">
+		<a href="#">
+			<img src="images/small-logo.png" height="46" width="202" alt="">
+		</a>
+	</div>
+	<div class="info hidden-sm">
 		<div class="name">Продюсер <br>Эльшан Мамедов</div>
 		<div class="inquiries">
 			Справки и заказ билетов
@@ -76,10 +85,42 @@
 		<li><a href="#">Контакты</a></li>
 		<li><a href="#">Билеты</a></li>
 	</ul>
+	<ul class="social small-social visible-sm">
+		<li>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="facebook"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="youtube"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="vk"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="instagram"></span>
+					</div>
+				</div>
+			</a>
+		</li>
+	</ul>
 </nav><!-- nav -->
 
 <div class="wrapper">
-	<div class="small-img" style="background-image: url(images/detail.jpg)">
+	<div class="small-img hidden-xs" style="background-image: url(images/detail.jpg)">
 		<div class="purple clearfix">
 			<div class="col-58">
 				<div class="name-show">
@@ -114,7 +155,49 @@
 				Дирекция
 			</li>
 		</div>
-		<div class="team-wrapper clearfix">
+		<div class="team-wrapper visible-xs">
+			<div class="alphabet">
+				<span>a</span>
+				<span>б</span>
+				<span>в</span>
+				<span>г</span>
+				<span>д</span>
+				<span>е</span>
+				<span>ж</span>
+				<span>з</span>
+				<span>и</span>
+				<span>к</span>
+				<span>л</span>
+				<span>м</span>
+				<span>н</span>
+				<span>о</span>
+				<span>п</span>
+				<span>р</span>
+				<span>с</span>
+				<span>т</span>
+				<span>у</span>
+				<span>ф</span>
+				<span>х</span>
+				<span>ц</span>
+				<span>ч</span>
+				<span>ш</span>
+				<span>щ</span>
+				<span>э</span>
+				<span>ю</span>
+				<span>я</span>
+			</div>
+			<div class="small-team">
+				<div class="team-block">
+					<div class="team-img">
+						<img src="images/team.jpg" height="300" width="200" alt="">
+					</div>
+					<div class="name">Эльшан Мамедов</div>
+					<div class="position">Продюсер</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="team-wrapper hidden-xs clearfix">
 			<div class="col-lg-3">
 				<div class="team-block">
 					<div class="team-img">

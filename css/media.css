@@ -10,12 +10,55 @@
 }
 
 @media(max-width: 1199px){
+	.hidden-md{
+		display: none !important;
+	}
 	.date-time{
 		font-size: 20px;
 	}
 	.main-name-show{
 		font-size: 24px;
 	}
+	.poster-container.second{
+		padding-right: 0;
+	}
+	.region .advert{
+		width: 100%;
+	}
+	.region .show,
+	.show-container .show{
+		width: 100%;
+	}
+	.poster-container .col-lg-4{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.region .col-lg-6{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.region.second .col-lg-4{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.region .show .date-show{
+		font-size: 20px;
+	}
+	.region .show .name-show{
+		font-size: 26px;
+	}
+	.region.second .advert{
+		height: 371px;
+	}
+	.person-info{
+		width: 100%;
+		padding-right: 20px;
+	}
+	.text-container.pad{
+		padding-right: 20px;
+	}
+
 }
 
 @media(max-width: 991px){
@@ -80,6 +123,79 @@
 	.col-64{
 		width: 100%;
 	}
+	.region .col-lg-8{
+		width: 100%;
+	}
+	.modal{
+		background: #fff;
+	}
+	.modal-dialog{
+		top: 0;
+		left: 0;
+		margin-top: 0;
+		margin-left: 0;
+		position: relative;
+		margin: 60px auto 0;
+	}
+	.region.second .col-lg-4{
+		width: 50%;
+	}
+	.about{
+		height: auto;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		padding-right: 20px;
+		margin-top: -3px;
+	}
+	.about-content{
+		padding-right: 20px;
+	}
+	.mobile-content{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.mobile .breadcrumb{
+		padding-left: 20px;
+		margin-bottom: 0;
+	}
+	.person-img > img{
+		float: none;
+	}
+	.person-img .person-name{
+		float: none;
+		padding-top: 20px;
+		padding-left: 0;
+	}
+	.about-theatre-container .col-lg-8{
+		width: 100%;
+		float: none;
+	}
+	.about-theatre-container .col-lg-6{
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
+	}
+	.about-theatre-container .title{
+		margin-bottom: 10px;
+	}
+	.about-theatre-container .text{
+		font-size: 18px;
+	}
+	.poster-container .col-lg-4{
+		width: 50%;
+	}
+	.poster-container .col-lg-4:nth-child(2n+1){
+		clear: both;
+	}
+	.poster-container{
+		margin-left: -20px;
+	}
+	.show .name-show{
+		font-size: 26px;
+	}
+	.show .name-show span{
+		font-size: 20px;
+	}
 }
 
 @media(max-width: 480px){
@@ -90,5 +206,24 @@
 	.poster-list .google{
 		padding-left: 30px;
 		padding-right: 30px;
+	}
+	.region .col-lg-6{
+		width: 100%;
+	}
+	.poster-container .col-lg-4{
+		width: 100%;
+	}
+	.region .show{
+		width: 270px;
+	}
+	.show-container .show{
+		height: auto;
+		width: 270px;
+	}
+	.logo{
+		padding-left: 50px;
+	}
+	.region.second .col-lg-4{
+		width: 100%;
 	}
 }
