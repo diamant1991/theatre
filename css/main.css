@@ -1510,3 +1510,25 @@ h2.bold b {
 .small-team {
   margin-left: -20px;
 }
+.date-block {
+  display: inline-block;
+  width: 24px;
+  text-align: center;
+}
+.date-block .number-date {
+  font-family: 'HelveticaNeueCyrBold';
+  font-size: 14px;
+  height: 24px;
+  background-color: #fff;
+  cursor: pointer;
+  line-height: 24px;
+  display: inline-block;
+  width: 100%;
+}
+.date-block .number-day {
+  font-family: 'HelveticaNeueCyrLight';
+  font-size: 11.5px;
+}
+.cal-month {
+  margin-bottom: 25px;
+}
