@@ -113,6 +113,14 @@
 		.small-social li a{
 			text-align: center;
 		}
+	.carousel{
+		margin-left: -20px;
+	}
+	.contact-desc,
+	.contacts-desc{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 
@@ -196,6 +204,55 @@
 	.show .name-show span{
 		font-size: 20px;
 	}
+	.mobile-block .col-lg-4{
+		width: 100%;
+		float: none;
+	}
+	.inerview-block header{
+		background: transparent;
+		color: #000;
+		padding-left: 0;
+	}
+	.inerview-block p{
+		padding-left: 0;
+	}
+	.interview .col-lg-4{
+		width: 100%;
+	}
+	.text-container .quote{
+		border-left: 0;
+	}
+	.journal .text-container{
+		padding-right: 20px;
+	}
+	.text-container .quote.second .quote-block{
+		display: block;
+		border:0;
+		text-align: left;
+		padding:  0;
+	}
+	.j-social .j-vk{
+		float: none;
+		margin-left: 0;
+	}
+	.j-social .j-facebook{
+		float: none;
+		margin-bottom: 20px;
+		padding-left: 10px;
+	}
+	.journal .logo{
+		padding-left: 0;
+		padding-right: 20px;
+		text-align: center;
+	}
+	.about-wrapper.journal .about-sidebar{
+		position: relative;
+		right: 0;
+	}
+	.about-wrapper.journal .about-content{
+		padding: 0;
+		margin-bottom: 20px;
+	}
 }
 
 @media(max-width: 480px){
@@ -204,8 +261,8 @@
 	}
 	.poster-list .yandex,
 	.poster-list .google{
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 	.region .col-lg-6{
 		width: 100%;
@@ -225,5 +282,15 @@
 	}
 	.region.second .col-lg-4{
 		width: 100%;
+	}
+	.about-sidebar{
+		width: 100%;
+		margin-left: -20px;
+		padding-left: 20px;
+	}
+	.send-form{
+		width: 100%;
+		margin-left: -20px;
+		padding-left: 20px;
 	}
 }

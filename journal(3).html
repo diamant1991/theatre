@@ -14,19 +14,27 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 	<script src="js/modernizr-2.8.3.min.js"></script>	
 </head>
 <body>
 
 <aside class="sidebar">
-	<div class="logo">
-		<a href="#"><img src="images/logo.png" height="151" width="194" alt=""></a>
+	<div class="logo hidden-sm">
+		<a href="#">
+			<img src="images/logo.png" height="151" width="194" alt="">
+		</a>
 	</div>
 	<div class="menu">
-		<div class="title">Меню</div>
+		<div class="title hidden-sm">Меню</div>
 		<span><img src="images/menu.png" height="14" width="26" alt=""></span>
 	</div>
-	<div class="info">
+	<div class="logo visible-sm">
+		<a href="#">
+			<img src="images/small-logo.png" height="46" width="202" alt="">
+		</a>
+	</div>
+	<div class="info hidden-sm">
 		<div class="name">Продюсер <br>Эльшан Мамедов</div>
 		<div class="inquiries">
 			Справки и заказ билетов
@@ -77,10 +85,42 @@
 		<li><a href="#">Контакты</a></li>
 		<li><a href="#">Билеты</a></li>
 	</ul>
+	<ul class="social small-social visible-sm">
+		<li>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="facebook"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="youtube"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="vk"></span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="icon">
+				<div class="icon-table">
+					<div class="block-vertical">
+						<span class="instagram"></span>
+					</div>
+				</div>
+			</a>
+		</li>
+	</ul>
 </nav><!-- nav -->
 
 <div class="wrapper">
-	<div class="small-img" style="background-image: url(images/detail.jpg)">
+	<div class="small-img hidden-xs" style="background-image: url(images/detail.jpg)">
 		<div class="purple clearfix">
 			<div class="col-58">
 				<div class="name-show">
@@ -120,7 +160,7 @@
 				<img src="images/journal-logo.png" height="58" width="415" alt="">
 			</div>
 			<div class="text-container">
-				<div class="aside-block">
+				<div class="aside-block hidden-xs">
 					<div class="person-aside">
 						<div class="logo-brand">
 							<img src="images/logo-atele.png" height="32" width="118" alt="">
@@ -147,7 +187,9 @@
 						Сегодня мы говорим с Константином Юшкевичем о театре, но не о ролях, которые он сыграл, а о пьесах, которые он написал в соавторстве с товарищами по сцене. Напомним вам, дорогие друзья, что ваши любимые «LADIES’ NIGHT. Только для женщин» и «Игра в правду» — сценические версии и адаптации, написанные командой в составе: Виктор Шамиров, Гоша Куценко и Константин Юшкевич. «История любви» во многом стала именно той историей, которую вы видели, также отчасти благодаря нашему 
 					</strong>
 				</div>
-				<img src="images/large-men.jpg" height="449" width="678" alt="">
+				<div class="hidden-xs">
+					<img src="images/large-men.jpg" height="449" width="678" alt="">
+				</div>
 				<p>
 					<i>Константин, Вы стали драматургом «поневоле»? Из-за того, что не нравился текст? Или сочинительство привлекало само по себе?</i>
 				</p>

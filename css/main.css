@@ -1370,6 +1370,7 @@ h2.bold b {
 }
 .interview-list li {
   margin-top: 15px;
+  line-height: 1.2;
 }
 .interview-list a {
   text-decoration: none;
