@@ -9,6 +9,11 @@
 	}
 }
 
+@media(max-width: 1170px){
+	.wrapp{
+		width: 100%;
+	}
+}
 @media(max-width: 1199px){
 	.hidden-md{
 		display: none !important;
@@ -194,9 +199,6 @@
 	}
 	.poster-container .col-lg-4:nth-child(2n+1){
 		clear: both;
-	}
-	.poster-container{
-		margin-left: -20px;
 	}
 	.show .name-show{
 		font-size: 26px;

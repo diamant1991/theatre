@@ -1,3 +1,12 @@
+body{
+  background-color: #949594;
+}
+.wrapp{
+  width: 1170px;
+  margin: auto;
+  position: relative;
+  height: 100%;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -641,14 +650,12 @@ h2.bold b {
   font-size: 18px;
   font-family: 'HelveticaNeueCyrLight';
   margin-bottom: 15px;
-  margin-left: -20px;
 }
 .adress.mrg {
   margin-top: 90px;
 }
 .up-block {
   text-align: center;
-  margin-left: -20px;
 }
 .up-btn {
   display: inline-block;
@@ -1710,4 +1717,15 @@ h2.bold b {
   z-index: 2;
   right: 20px;
   top: 0;
+}
+.contact-carousel{
+  margin-left: -20px;
+}
+.contacts-desc,
+.contact-desc{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.about-theatre-container .carousel{
+  margin-left: -20px;
 }
