@@ -9,9 +9,35 @@
 	}
 }
 
+@media(min-width: 1171px){
+	.nav{
+		width: 1170px;
+		left: 50%;
+		margin-left: -585px;
+	}
+	.nav .nav-list{
+	  background: #ebebeb;
+	  width: 320px;
+	  position: relative;
+	  left: 0;
+	  padding-top: 10px;
+	  height: 100%;
+	  -webkit-transition: all 0.3s ease-in-out;
+	  -moz-transition: all 0.3s ease-in-out;
+	  transition: all 0.3s ease-in-out;
+	}
+	.nav.active .nav-list{
+    left: 235px;
+  }
+}
+
 @media(max-width: 1170px){
 	.wrapp{
 		width: 100%;
+	}
+	.about{
+		height: auto;
+		padding-bottom: 20px;
 	}
 }
 @media(max-width: 1199px){

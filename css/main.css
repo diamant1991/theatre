@@ -1,7 +1,7 @@
-body{
+body {
   background-color: #949594;
 }
-.wrapp{
+.wrapp {
   width: 1170px;
   margin: auto;
   position: relative;
@@ -72,7 +72,7 @@ img {
   width: 8.33333333%;
 }
 body {
-  color: #000;
+  color: black;
 }
 body.hidden {
   overflow: hidden;
@@ -116,7 +116,7 @@ h2.bold b {
   position: fixed;
   z-index: 101;
   font-size: 18px;
-  background-color: #fff;
+  background-color: white;
 }
 .sidebar .menu {
   position: absolute;
@@ -220,7 +220,6 @@ h2.bold b {
 .name-show.main-name-show {
   height: 60px;
   padding: 0;
-  line-height: 60px;
 }
 .place {
   font-size: 18px;
@@ -246,17 +245,17 @@ h2.bold b {
   width: 100%;
   padding: 5px 0;
   text-align: center;
-  color: #fff;
+  color: white;
   font-size: 24px;
   font-family: 'HelveticaNeueCyrLight';
   text-decoration: none;
 }
 .carousel-caption .more-link:hover {
-  color: #000;
+  color: black;
 }
 .carousel-caption .more-link:active {
-  background: #fff;
-  color: #000;
+  background: white;
+  color: black;
 }
 .carousel-caption .tickets-link {
   display: block;
@@ -264,17 +263,17 @@ h2.bold b {
   padding: 5px 0;
   float: right;
   text-align: center;
-  color: #fff;
+  color: white;
   font-size: 24px;
   font-family: 'HelveticaNeueCyrLight';
   text-decoration: none;
 }
 .carousel-caption .tickets-link:hover {
-  color: #000;
+  color: black;
 }
 .carousel-caption .tickets-link:active {
-  background: #fff;
-  color: #000;
+  background: white;
+  color: black;
 }
 .carousel-inner .item:first-child .date-time,
 .carousel-inner .item:first-child .name-show,
@@ -304,7 +303,7 @@ h2.bold b {
 .carousel-inner .item:nth-child(3) .name-show,
 .carousel-inner .item:nth-child(3) .place,
 .carousel-inner .item:nth-child(3) .comment {
-  background-color: #ff0000;
+  background-color: red;
 }
 .carousel-inner .item:nth-child(3) .more-link {
   background-color: #ff4d4d;
@@ -352,13 +351,13 @@ h2.bold b {
 .carousel-inner .item:nth-child(7) .name-show,
 .carousel-inner .item:nth-child(7) .place,
 .carousel-inner .item:nth-child(7) .comment {
-  background-color: #ffcc00;
+  background-color: #e6b800;
 }
 .carousel-inner .item:nth-child(7) .more-link {
-  background-color: #ffdb4d;
+  background-color: #ffd633;
 }
 .carousel-inner .item:nth-child(7) .tickets-link {
-  background-color: #ffe57f;
+  background-color: #ffe065;
 }
 .calendar {
   text-align: center;
@@ -368,13 +367,11 @@ h2.bold b {
   padding: 10px 0;
 }
 .nav {
-  position: absolute;
+  position: fixed;
   z-index: 100;
-  left: 0;
   width: 320px;
-  background: #ebebeb;
-  min-height: 100%;
-  padding-top: 10px;
+  left: 0;
+  height: 100%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -382,7 +379,6 @@ h2.bold b {
   transition: all 0.3s ease-in-out;
 }
 .nav.active {
-  left: 235px;
   visibility: visible;
   opacity: 1;
 }
@@ -394,14 +390,14 @@ h2.bold b {
   color: #959595;
 }
 .nav-list a:active {
-  background: #000;
-  color: #fff;
+  background: black;
+  color: white;
 }
 .nav-list > li {
-  border-top: 3px solid #fff;
+  border-top: 3px solid white;
 }
 .nav-list > li:last-child {
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid white;
 }
 .nav-list > li > a {
   font-size: 24px;
@@ -411,7 +407,7 @@ h2.bold b {
   display: block;
 }
 .nav-list > li > ul > li:first-child a {
-  border-top: 1px solid #000;
+  border-top: 1px solid black;
 }
 .nav-list > li > ul a {
   font-size: 18px;
@@ -419,7 +415,7 @@ h2.bold b {
   padding: 3px 0;
   padding-left: 70px;
   display: block;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid black;
 }
 .small-img {
   background-repeat: no-repeat;
@@ -478,21 +474,21 @@ h2.bold b {
 .purple .place,
 .purple .date-time {
   background-color: #9932ff;
-  color: #fff;
+  color: white;
 }
 .purple .tickets-link {
   background-color: #d6adff;
-  color: #fff;
+  color: white;
 }
 .purple .tickets-link:hover {
-  color: #000;
+  color: black;
 }
 .purple .more-link {
-  color: #fff;
+  color: white;
   background-color: #b770ff;
 }
 .purple .more-link:hover {
-  color: #000;
+  color: black;
 }
 .poster .title {
   font-size: 12px;
@@ -542,7 +538,7 @@ h2.bold b {
 }
 .poster-list .yandex {
   display: inline-block;
-  background: #fff;
+  background: white;
   padding: 2px 40px;
 }
 .poster-list .searcher {
@@ -550,7 +546,7 @@ h2.bold b {
 }
 .poster-list .google {
   display: inline-block;
-  background: #fff;
+  background: white;
   padding: 2px 40px;
 }
 .poster-list .scheme {
@@ -558,15 +554,15 @@ h2.bold b {
 }
 .poster-list .scheme a {
   display: inline-block;
-  background-color: #fff;
+  background-color: white;
   text-decoration: none;
-  color: #000;
+  color: black;
   font-size: 24px;
   font-family: 'HelveticaNeueCyrLight';
   padding: 2px 100px;
 }
 .advert {
-  background-color: #fff;
+  background-color: white;
   width: 80%;
   padding: 25px 20px;
   margin-bottom: 25px;
@@ -630,7 +626,7 @@ h2.bold b {
   background-color: #ebebeb;
 }
 .social .icon:active {
-  background-color: #000;
+  background-color: black;
 }
 .social .icon:active .facebook {
   background: url(../images/facebook-active.png) no-repeat;
@@ -676,12 +672,12 @@ h2.bold b {
 .show {
   width: 270px;
   margin: auto;
-  color: #fff;
+  color: white;
   text-align: center;
   margin-bottom: 20px;
 }
 .show.red {
-  background-color: #ff0000;
+  background-color: red;
 }
 .show.red .more {
   background-color: #ff4d4d;
@@ -750,16 +746,16 @@ h2.bold b {
   background-color: #7fcbcb;
 }
 .show.yellow {
-  background-color: #ffcc00;
+  background-color: #e6b800;
 }
 .show.yellow .name-show {
-  background-color: #ffcc00;
+  background-color: #e6b800;
 }
 .show.yellow .more {
-  background-color: #ffdb4d;
+  background-color: #ffd633;
 }
 .show.yellow .tickets {
-  background-color: #ffe57f;
+  background-color: #ffe065;
 }
 .show img {
   max-width: 100%;
@@ -802,7 +798,7 @@ h2.bold b {
   line-height: 30px;
   font-family: 'HelveticaNeueCyrLight';
   font-size: 24px;
-  color: #fff;
+  color: white;
   text-align: center;
   text-decoration: none !important;
 }
@@ -813,13 +809,13 @@ h2.bold b {
   line-height: 30px;
   font-family: 'HelveticaNeueCyrLight';
   font-size: 24px;
-  color: #fff;
+  color: white;
   text-align: center;
   text-decoration: none !important;
 }
 .city-reg {
   text-align: center;
-  color: #000;
+  color: black;
 }
 .city-reg .year {
   font-size: 18px;
@@ -849,10 +845,10 @@ h2.bold b {
   display: block;
   cursor: pointer;
 }
+
 .modal-dialog .title {
-  background: #ff0000;
   padding: 0 25px;
-  color: #fff;
+  color: white;
   padding-top: 12px;
   padding-bottom: 8px;
 }
@@ -884,7 +880,6 @@ h2.bold b {
 .modal-dialog h2 {
   font-size: 30px;
   text-align: center;
-  color: #ff0000;
   font-family: 'HelveticaNeueCyrBlack';
 }
 .modal-dialog .about-show {
@@ -893,11 +888,10 @@ h2.bold b {
   text-align: center;
   height: 30px;
   line-height: 30px;
-  background: #ff0000;
   text-decoration: none;
   font-size: 24px;
   font-family: 'HelveticaNeueCyrLight';
-  color: #fff;
+  color: white;
 }
 .modal-dialog .tickets-link {
   display: block;
@@ -905,11 +899,10 @@ h2.bold b {
   text-align: center;
   height: 30px;
   line-height: 30px;
-  background: #ff7f7f;
   text-decoration: none;
   font-size: 24px;
   font-family: 'HelveticaNeueCyrLight';
-  color: #fff;
+  color: white;
 }
 .modal-dialog .close {
   position: absolute;
@@ -925,11 +918,12 @@ h2.bold b {
   font-family: 'HelveticaNeueCyrBlack';
   text-align: center;
 }
-.cast header.red {
-  background: #ffb2b2;
-}
+
 .cast header.grey {
   background: #c2c2c2;
+}
+.cast-list.grey a:hover{
+  background: #acacac;
 }
 .cast-list {
   font-size: 18px;
@@ -949,15 +943,15 @@ h2.bold b {
   padding: 1px 20px;
 }
 .cast-list a {
-  color: #000;
+  color: black;
   text-decoration: none;
   display: block;
   padding: 2px 20px;
   cursor: pointer;
 }
 .cast-list a:hover {
-  color: #fff;
-  background-color: #ff0000;
+  color: white;
+  background-color: red;
 }
 .cast-list strong {
   font-family: 'HelveticaNeueCyrBold';
@@ -976,7 +970,7 @@ h2.bold b {
   padding: 0 2px;
 }
 .breadcrumb li a {
-  color: #000;
+  color: black;
   text-decoration: none;
 }
 .breadcrumb li a:hover {
@@ -1000,7 +994,7 @@ h2.bold b {
 }
 .about .show-name {
   font-size: 44px;
-  color: #fff;
+  color: white;
   font-family: 'HelveticaNeueCyrBlack';
   margin: 10px 0;
 }
@@ -1054,6 +1048,9 @@ h2.bold b {
 .trailer {
   margin-bottom: 30px;
 }
+.trailer.archive{
+  margin-top: 30px;
+}
 .about-wrapper {
   position: relative;
   margin-bottom: 50px;
@@ -1073,7 +1070,7 @@ h2.bold b {
 }
 .next-show {
   padding-top: 5px;
-  background-color: #ff0000;
+  background-color: red;
   margin-bottom: 30px;
 }
 .next-show h4 {
@@ -1083,7 +1080,7 @@ h2.bold b {
 }
 .date-time-block {
   font-size: 24px;
-  color: #fff;
+  color: white;
   margin: 10px 0;
   padding: 0 10px;
 }
@@ -1102,7 +1099,7 @@ h2.bold b {
   text-align: center;
   font-size: 18px;
   font-family: 'HelveticaNeueCyrLight';
-  color: #fff;
+  color: white;
   padding-bottom: 5px;
 }
 .more {
@@ -1111,7 +1108,7 @@ h2.bold b {
   line-height: 30px;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-family: 'HelveticaNeueCyrLight';
   font-size: 24px;
 }
@@ -1124,7 +1121,7 @@ h2.bold b {
   line-height: 30px;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-family: 'HelveticaNeueCyrLight';
   font-size: 24px;
 }
@@ -1150,7 +1147,7 @@ h2.bold b {
   height: 90px;
   border: 0;
   outline: 0;
-  background-color: #fff;
+  background-color: white;
   resize: none;
   font-size: 14px;
   font-family: 'HelveticaNeueCyrLight';
@@ -1168,18 +1165,18 @@ h2.bold b {
 }
 .send-not-reg {
   width: 100%;
-  background-color: #fff;
+  background-color: white;
   border: 0;
   outline: 0;
   cursor: pointer;
   height: 30px;
-  color: #000;
+  color: black;
   font-family: 'HelveticaNeueCyrLight';
   font-size: 18px;
   margin-bottom: 20px;
 }
 .text-comment {
-  background-color: #fff;
+  background-color: white;
   padding-left: 15px;
   padding-top: 10px;
 }
@@ -1264,7 +1261,7 @@ h2.bold b {
   height: 140px;
   position: absolute;
   z-index: 2;
-  background: #fff;
+  background: white;
   top: 0;
   padding-top: 15px;
   right: 50px;
@@ -1273,11 +1270,11 @@ h2.bold b {
   display: block;
   width: 100%;
   height: 27px;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   text-align: center;
   text-decoration: none;
-  color: #000;
+  color: black;
   margin: 10px 0;
   font-size: 18px;
   line-height: 24px;
@@ -1287,8 +1284,8 @@ h2.bold b {
   color: #959595;
 }
 .person-aside .link-producer:active {
-  background: #000;
-  color: #fff;
+  background: black;
+  color: white;
 }
 .person-aside .next-page {
   padding-left: 10px;
@@ -1303,7 +1300,7 @@ h2.bold b {
   background: #454545;
   font-size: 24px;
   font-family: 'HelveticaNeueCyrBold';
-  color: #fff;
+  color: white;
   padding: 15px 20px;
   line-height: 1.3;
   margin-bottom: 30px;
@@ -1312,7 +1309,7 @@ h2.bold b {
   font-family: 'HelveticaNeueCyrLight';
 }
 .about-theatre-container .title {
-  background: #fff;
+  background: white;
   padding: 3px 10px;
   font-size: 24px;
   margin-bottom: 20px;
@@ -1338,7 +1335,7 @@ h2.bold b {
   background: #454545;
   font-size: 24px;
   font-family: 'HelveticaNeueCyrBold';
-  color: #fff;
+  color: white;
   padding: 15px 20px;
   line-height: 1.3;
   margin-bottom: 30px;
@@ -1377,7 +1374,7 @@ h2.bold b {
   font-family: 'HelveticaNeueCyrBoldItalic';
 }
 .text-container .quote {
-  border-left: 20px solid #fff;
+  border-left: 20px solid white;
   padding-left: 5px;
   line-height: 1.3;
   margin-bottom: 25px;
@@ -1392,7 +1389,7 @@ h2.bold b {
 .text-container .quote.second .quote-block {
   display: inline-block;
   text-align: right;
-  border-right: 20px solid #fff;
+  border-right: 20px solid white;
   padding: 20px 0;
   padding-right: 10px;
 }
@@ -1432,7 +1429,7 @@ h2.bold b {
 .inerview-block header {
   font-size: 24px;
   font-family: 'HelveticaNeueCyrBold';
-  color: #fff;
+  color: white;
   line-height: 1.3;
   background: #454545;
   padding: 5px 20px;
@@ -1459,7 +1456,7 @@ h2.bold b {
 }
 .interview-list a {
   text-decoration: none;
-  color: #000;
+  color: black;
 }
 .interview-list a:hover {
   text-decoration: underline;
@@ -1489,9 +1486,9 @@ h2.bold b {
   text-align: center;
   float: left;
   line-height: 30px;
-  color: #000;
+  color: black;
   font-family: 'HelveticaNeueCyrLight';
-  background: #fff;
+  background: white;
   text-decoration: none;
   margin-left: 10px;
 }
@@ -1514,7 +1511,7 @@ h2.bold b {
   height: 30px;
   border: 0;
   outline: 0;
-  background-color: #fff;
+  background-color: white;
   padding-left: 15px;
   font-size: 18px;
   font-family: 'HelveticaNeueCyrLight';
@@ -1529,7 +1526,7 @@ h2.bold b {
   resize: none;
   border: 0;
   outline: 0;
-  background-color: #fff;
+  background-color: white;
   padding-left: 15px;
   font-size: 18px;
   font-family: 'HelveticaNeueCyrLight';
@@ -1541,24 +1538,24 @@ h2.bold b {
   border: 0;
   outline: 0;
   cursor: pointer;
-  background-color: #fff;
+  background-color: white;
   font-size: 18px;
   font-family: 'HelveticaNeueCyrLight';
-  color: #000;
+  color: black;
 }
 .send-form .send:hover {
   color: #959595;
 }
 .send-form .send:active {
-  background: #000;
-  color: #fff;
+  background: black;
+  color: white;
 }
 .input-block {
   margin-bottom: 7px;
 }
 .symbol {
   height: 30px;
-  background-color: #fff;
+  background-color: white;
   text-align: center;
   line-height: 30px;
 }
@@ -1571,7 +1568,7 @@ h2.bold b {
   text-decoration: none;
   font-family: 'HelveticaNeueCyrBold';
   font-size: 18px;
-  color: #000;
+  color: black;
 }
 .next-performances img {
   margin-top: 5px;
@@ -1581,7 +1578,7 @@ h2.bold b {
   font-family: 'HelveticaNeueCyrLight';
   font-size: 9px;
   text-align: center;
-  background-color: #fff;
+  background-color: white;
   padding-top: 5px;
   margin-left: -20px;
   padding-bottom: 5px;
@@ -1604,29 +1601,37 @@ h2.bold b {
 .date-block .tooltip {
   position: absolute;
   padding: 3px 10px;
-  color: #fff;
+  color: white;
   font-size: 18px;
   font-family: 'HelveticaNeueCyrBlack';
-  width: 170px;
+  width: 200px;
   left: 50%;
   visibility: hidden;
   opacity: 0;
   margin-left: -85px;
   top: -38px;
-  z-index: 2;
+  z-index: 3;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.date-block .number-date {
+.date-block .number-date
+ {
   font-family: 'HelveticaNeueCyrBold';
   font-size: 14px;
   height: 24px;
-  background-color: #fff;
+  background-color: white;
   cursor: pointer;
   line-height: 24px;
   display: inline-block;
   width: 100%;
+}
+.date-block .day-cal{
+  font-family: 'HelveticaNeueCyrBold';
+  font-size: 14px;
+  position: relative;
+  top: -4px;
+  z-index: 4;
 }
 .date-block .number-date:hover + div {
   visibility: visible;
@@ -1637,7 +1642,7 @@ h2.bold b {
   background-color: #009999;
 }
 .date-block .number-date[data-slide-to="0"]:hover {
-  color: #fff;
+  color: white;
 }
 .date-block .number-date[data-slide-to="0"] + div {
   background-color: #009999;
@@ -1646,7 +1651,7 @@ h2.bold b {
   background-color: #3299ff;
 }
 .date-block .number-date[data-slide-to="1"]:hover {
-  color: #fff;
+  color: white;
 }
 .date-block .number-date[data-slide-to="1"] + div {
   background-color: #3299ff;
@@ -1655,7 +1660,7 @@ h2.bold b {
   background-color: red;
 }
 .date-block .number-date[data-slide-to="2"]:hover {
-  color: #fff;
+  color: white;
 }
 .date-block .number-date[data-slide-to="2"] + div {
   background-color: red;
@@ -1664,7 +1669,7 @@ h2.bold b {
   background-color: #9932ff;
 }
 .date-block .number-date[data-slide-to="3"]:hover {
-  color: #fff;
+  color: white;
 }
 .date-block .number-date[data-slide-to="3"] + div {
   background-color: #9932ff;
@@ -1676,7 +1681,7 @@ h2.bold b {
   background-color: #ff99cc;
 }
 .date-block .number-date[data-slide-to="4"]:hover {
-  color: #fff;
+  color: white;
 }
 .date-block .number-date[data-slide-to="5"] {
   background-color: #ff6532;
@@ -1685,20 +1690,22 @@ h2.bold b {
   background-color: #ff6532;
 }
 .date-block .number-date[data-slide-to="5"]:hover {
-  color: #fff;
+  color: white;
 }
 .date-block .number-date[data-slide-to="6"] {
-  background-color: #ffcc00;
+  background-color: #e6b800;
 }
 .date-block .number-date[data-slide-to="6"] + div {
-  background-color: #ffcc00;
+  background-color: #e6b800;
 }
 .date-block .number-date[data-slide-to="6"]:hover {
-  color: #fff;
+  color: white;
 }
 .date-block .number-day {
   font-family: 'HelveticaNeueCyrLight';
   font-size: 11.5px;
+  position: relative;
+  z-index: 4;
 }
 .cal-month {
   margin-bottom: 30px;
@@ -1718,14 +1725,182 @@ h2.bold b {
   right: 20px;
   top: 0;
 }
-.contact-carousel{
+.contact-carousel {
   margin-left: -20px;
 }
 .contacts-desc,
-.contact-desc{
+.contact-desc {
   padding-left: 20px;
   padding-right: 20px;
 }
-.about-theatre-container .carousel{
+.about-theatre-container .carousel {
   margin-left: -20px;
+}
+.inner-container{
+  position: absolute;
+  width: 24px;
+  height: 27px;
+  z-index: 2;
+}
+.inner-container:hover{
+  z-index: 3;
+}
+.inner-container.second{
+  bottom: -9px;
+}
+.inner-container.second-var{
+  bottom: 2px;
+}
+
+.inner-container.first{
+  top: -17px;
+}
+.inner-container.third{
+  top: -24px;
+}
+.inner-container .number-date{
+  font-family: 'HelveticaNeueCyrLight';
+  font-size: 11.5px;
+}
+
+
+
+
+/**************************/
+.modal.green .modal-dialog .title {
+  background-color: #009999;
+}
+.modal.green .modal-dialog h2 {
+  color: #009999;
+}
+.modal.green .modal-dialog .about-show {
+  background-color: #009999;
+}
+.modal.green .modal-dialog .tickets-link {
+  background-color: #7fcbcb;
+}
+.modal.green .cast-list a:hover{
+  background-color: #009999;
+}
+.modal.green .cast header{
+  background-color: #4db7b7;
+}
+/**************************/
+.modal.blue .modal-dialog .title {
+  background-color: #3299ff;
+}
+.modal.blue .modal-dialog h2 {
+  color: #3299ff;
+}
+.modal.blue .modal-dialog .about-show {
+  background-color: #3299ff;
+}
+.modal.blue .modal-dialog .tickets-link {
+  background-color: #98cbff;
+}
+.modal.blue .cast-list a:hover{
+  background-color: #3299ff;
+}
+.modal.blue .cast header{
+  background-color: #70b7ff;
+}
+/**************************/
+.modal.red .modal-dialog .title {
+  background-color: #fc0000;
+}
+.modal.red .modal-dialog h2 {
+  color: #fc0000;
+}
+.modal.red .modal-dialog .about-show {
+  background-color: #fc0000;
+}
+.modal.red .modal-dialog .tickets-link {
+  background-color: #ff7f7f;
+}
+.modal.red .cast-list a:hover{
+  background-color: #fc0000;
+}
+.modal.red .cast header{
+  background-color: #ffb2b2;
+}
+/**************************/
+.modal.purple .modal-dialog .title {
+  background-color: #9932ff;
+}
+.modal.purple .modal-dialog h2 {
+  color: #9932ff;
+}
+.modal.purple .modal-dialog .about-show {
+  background-color: #9932ff;
+}
+.modal.purple .modal-dialog .tickets-link {
+  background-color: #d6adff;
+}
+.modal.purple .cast-list a:hover{
+  background-color: #9932ff;
+}
+.modal.purple .cast header{
+  background-color: #b770ff;
+}
+/**************************/
+.modal.pink .modal-dialog .title {
+  background-color: #ff99cc;
+}
+.modal.pink .modal-dialog h2 {
+  color: #ff99cc;
+}
+.modal.pink .modal-dialog .about-show {
+  background-color: #ff99cc;
+}
+.modal.pink .modal-dialog .tickets-link {
+  background-color: #ffcbe5;
+}
+.modal.pink .cast-list a:hover{
+  background-color: #ff99cc;
+}
+.modal.pink .cast header{
+  background-color: #ffb7db;
+}
+/**************************/
+.modal.orange .modal-dialog .title {
+  background-color: #ff6532;
+}
+.modal.orange .modal-dialog h2 {
+  color: #ff6532;
+}
+.modal.orange .modal-dialog .about-show {
+  background-color: #ff6532;
+}
+.modal.orange .modal-dialog .tickets-link {
+  background-color: #ffb298;
+}
+.modal.orange .cast-list a:hover{
+  background-color: #ff6532;
+}
+.modal.orange .cast header{
+  background-color: #ff9470;
+}
+/**************************/
+.modal.yellow .modal-dialog .title {
+  background-color: #e6b800;
+}
+.modal.yellow .modal-dialog h2 {
+  color: #e6b800;
+}
+.modal.yellow .modal-dialog .about-show {
+  background-color: #e6b800;
+}
+.modal.yellow .modal-dialog .tickets-link {
+  background-color: #ffe065;
+}
+.modal.yellow .cast-list a:hover{
+  background-color: #e6b800;
+}
+.modal.yellow .cast header{
+  background-color: #ffd633;
+}
+/**************************/
+.hidden-day,
+.hidden-time{
+  display: none;
 }

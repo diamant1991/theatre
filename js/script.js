@@ -33,9 +33,44 @@ $(document).ready(function() {
 				item.removeClass('active');
 			}
 	});
-
-	
 	// end accardeon
+
+	// date function
+		$('.number-date').click(function() {
+			var day = $(this).find('.hidden-day').html();
+			var time = $(this).find('.hidden-time').html();
+
+			if($(this).attr('data-slide-to') == 0){
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:first-child').find('.date').html(day);
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:first-child').find('.time').html(time);
+			}
+			else if($(this).attr('data-slide-to') == 1){
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(2)').find('.date').html(day);
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(2)').find('.time').html(time);
+			}
+			else if($(this).attr('data-slide-to') == 2){
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(3)').find('.date').html(day);
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(3)').find('.time').html(time);
+			}
+			else if($(this).attr('data-slide-to') == 3){
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(4)').find('.date').html(day);
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(4)').find('.time').html(time);
+			}
+			else if($(this).attr('data-slide-to') == 4){
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(5)').find('.date').html(day);
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(5)').find('.time').html(time);
+			}
+			else if($(this).attr('data-slide-to') == 5){
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(6)').find('.date').html(day);
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(6)').find('.time').html(time);
+			}
+			else if($(this).attr('data-slide-to') == 6){
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(7)').find('.date').html(day);
+				$('#carousel-example-generic').find('.carousel-inner').find('.item:nth-child(7)').find('.time').html(time);
+			}
+			
+		});
+	//end date function
 
 });
 
