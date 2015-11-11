@@ -161,6 +161,13 @@ h2.bold b {
   padding-bottom: 35px;
   line-height: 1.2;
 }
+  .sidebar .info .name a{
+    text-decoration: none;
+    color: #000;
+  }
+  .sidebar .info .name a:hover{
+    text-decoration: underline;
+  }
 .logo {
   padding-top: 25px;
 }
@@ -239,6 +246,7 @@ h2.bold b {
 .carousel-caption .more {
   width: 60%;
   margin-top: 59px;
+  line-height: 26px;
 }
 .carousel-caption .more-link {
   display: block;
@@ -456,7 +464,7 @@ h2.bold b {
   display: block;
   width: 60%;
   float: right;
-  height: 33px;
+  height: 34px;
   margin-top: 3px;
   line-height: 33px;
   font-size: 24px;
@@ -922,6 +930,9 @@ h2.bold b {
 .cast header.grey {
   background: #c2c2c2;
 }
+.cast header.red{
+  background: #ffb2b2;
+}
 .cast-list.grey a:hover{
   background: #acacac;
 }
@@ -1032,6 +1043,13 @@ h2.bold b {
 .about-content .press li {
   margin-bottom: 15px;
 }
+  .about-content .press li a{
+    color: #000;
+    text-decoration: none;
+  }
+  .about-content .press li a:hover{
+    text-decoration: underline;
+  }
 .about-sidebar {
   position: absolute;
   z-index: 2;
@@ -1126,7 +1144,8 @@ h2.bold b {
   font-size: 24px;
 }
 .tickets.main-tickets {
-  margin-top: 8px;
+  margin-top: 6px;
+  line-height: 32px;
 }
 .tickets.main-tickets .tickets-link {
   padding: 0;
@@ -1615,10 +1634,9 @@ h2.bold b {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.date-block .number-date
- {
+.date-block .number-date{
   font-family: 'HelveticaNeueCyrBold';
-  font-size: 14px;
+  font-size: 18px;
   height: 24px;
   background-color: white;
   cursor: pointer;
@@ -1628,10 +1646,15 @@ h2.bold b {
 }
 .date-block .day-cal{
   font-family: 'HelveticaNeueCyrBold';
-  font-size: 14px;
+  font-size: 18px;
   position: relative;
-  top: -4px;
+  top: -3px;
   z-index: 4;
+}
+.cal-month .distributor{
+  color: #8C8C8C;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .date-block .number-date:hover + div {
   visibility: visible;
@@ -1702,7 +1725,7 @@ h2.bold b {
   color: white;
 }
 .date-block .number-day {
-  font-family: 'HelveticaNeueCyrLight';
+  font-family: 'HelveticaNeueCyrRoman';
   font-size: 11.5px;
   position: relative;
   z-index: 4;
@@ -1717,6 +1740,9 @@ h2.bold b {
   z-index: 2;
   left: 20px;
   top: 0;
+}
+.month-prev.disable{
+  display: none;
 }
 .month-next {
   position: absolute;
@@ -1903,4 +1929,9 @@ h2.bold b {
 .hidden-day,
 .hidden-time{
   display: none;
+}
+.comments-block{
+  float: right;
+  width: 270px;
+  margin-right: 40px;
 }

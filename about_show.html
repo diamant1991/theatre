@@ -309,43 +309,47 @@
 			<div class="press">
 				<h3>Пресса</h3>
 				<ul>
-					<li>Название материала 1</li>
-					<li>Название материала 2</li>
-					<li>Название материала 3</li>
+					<li><a href="#">Название материала 1</a></li>
+					<li><a href="#">Название материала 2</a></li>
+					<li><a href="#">Название материала 3</a></li>
 				</ul>
 			</div>
 		</div>
-		<div class="sidebar-content mobile-content visible-xs">
-			<div class="comments">
-				<h4>Комментарии</h4>
-				<textarea placeholder="Ваш комментарий"></textarea>
-			</div>
-			<div class="enter-with">
-				<span>Войти через</span>
-				<ul class="social">
-					<li>
-						<a href="#" class="icon">
-							<div class="icon-table">
-								<div class="block-vertical">
-									<span class="facebook"></span>
+		
+		<!-- <div class="sidebar-content clearfix">
+			<div class="comments-block">
+				<div class="comments">
+					<h4>Комментарии</h4>
+					<textarea placeholder="Ваш комментарий"></textarea>
+				</div>
+				<div class="enter-with">
+					<span>Войти через</span>
+					<ul class="social">
+						<li>
+							<a href="#" class="icon">
+								<div class="icon-table">
+									<div class="block-vertical">
+										<span class="facebook"></span>
+									</div>
 								</div>
-							</div>
-						</a>
-						<a href="#" class="icon">
-							<div class="icon-table">
-								<div class="block-vertical">
-									<span class="vk"></span>
+							</a>
+							<a href="#" class="icon">
+								<div class="icon-table">
+									<div class="block-vertical">
+										<span class="vk"></span>
+									</div>
 								</div>
-							</div>
-						</a>
-					</li>
-				</ul>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<input type="submit" value="Отправить без авторизации" class="send-not-reg">
+				<div class="text-comment">
+					<div class="title">Текст комментариев</div>
+				</div>
 			</div>
-			<input type="submit" value="Отправить без авторизации" class="send-not-reg">
-			<div class="text-comment">
-				<div class="title">Текст комментариев</div>
-			</div>
-		</div>
+		</div> -->
+
 		<aside class="about-sidebar hidden-xs">
 			<div class="cast">
 				<header class="red">
@@ -396,36 +400,6 @@
 					<div class="trailer">
 						<iframe width="270" height="165" src="https://www.youtube.com/embed/EGmKAqjsOhw" frameborder="0" allowfullscreen></iframe>
 					</div>
-					<div class="comments">
-						<h4>Комментарии</h4>
-						<textarea placeholder="Ваш комментарий"></textarea>
-					</div>
-					<div class="enter-with">
-						<span>Войти через</span>
-						<ul class="social">
-							<li>
-								<a href="#" class="icon">
-									<div class="icon-table">
-										<div class="block-vertical">
-											<span class="facebook"></span>
-										</div>
-									</div>
-								</a>
-								<a href="#" class="icon">
-									<div class="icon-table">
-										<div class="block-vertical">
-											<span class="vk"></span>
-										</div>
-									</div>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<input type="submit" value="Отправить без авторизации" class="send-not-reg">
-					<div class="text-comment">
-						<div class="title">Текст комментариев</div>
-					</div>
-				</div>
 			</div>
 		</aside>
 	</div>
@@ -479,5 +453,12 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/vendor.min.js"></script>
 <script src="js/script.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.carousel').carousel({
+      interval: 4000
+    })
+	});
+</script>
 </body>
 </html>

@@ -159,6 +159,12 @@
 	.hidden-xs{
 		display: none !important;
 	}
+	.comments-block{
+		float: left;
+		margin: 0;
+		margin-left: 20px;
+	}
+
 	.col-64{
 		width: 100%;
 	}
