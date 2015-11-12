@@ -359,7 +359,7 @@ h2.bold b {
 .carousel-inner .item:nth-child(7) .name-show,
 .carousel-inner .item:nth-child(7) .place,
 .carousel-inner .item:nth-child(7) .comment {
-  background-color: #e6b800;
+  background-color: #ffbe00;
 }
 .carousel-inner .item:nth-child(7) .more-link {
   background-color: #ffd633;
@@ -754,10 +754,10 @@ h2.bold b {
   background-color: #7fcbcb;
 }
 .show.yellow {
-  background-color: #e6b800;
+  background-color: #ffbe00;
 }
 .show.yellow .name-show {
-  background-color: #e6b800;
+  background-color: #ffbe00;
 }
 .show.yellow .more {
   background-color: #ffd633;
@@ -1716,10 +1716,10 @@ h2.bold b {
   color: white;
 }
 .date-block .number-date[data-slide-to="6"] {
-  background-color: #e6b800;
+  background-color: #ffbe00;
 }
 .date-block .number-date[data-slide-to="6"] + div {
-  background-color: #e6b800;
+  background-color: #ffbe00;
 }
 .date-block .number-date[data-slide-to="6"]:hover {
   color: white;
@@ -1809,7 +1809,10 @@ h2.bold b {
   background-color: #009999;
 }
 .modal.green .cast header{
-  background-color: #4db7b7;
+  background-color: #b2e0e0;
+}
+.modal.green .scrollbar-inner{
+  background-color: #d9f0f0;
 }
 /**************************/
 .modal.blue .modal-dialog .title {
@@ -1828,7 +1831,10 @@ h2.bold b {
   background-color: #3299ff;
 }
 .modal.blue .cast header{
-  background-color: #70b7ff;
+  background-color: #c1e0ff;
+}
+.modal.blue .scrollbar-inner{
+  background-color: #e1f0ff;
 }
 /**************************/
 .modal.red .modal-dialog .title {
@@ -1866,7 +1872,10 @@ h2.bold b {
   background-color: #9932ff;
 }
 .modal.purple .cast header{
-  background-color: #b770ff;
+  background-color: #e0c1ff;
+}
+.modal.purple .scrollbar-inner{
+  background-color: #f0e1ff;
 }
 /**************************/
 .modal.pink .modal-dialog .title {
@@ -1885,47 +1894,57 @@ h2.bold b {
   background-color: #ff99cc;
 }
 .modal.pink .cast header{
-  background-color: #ffb7db;
+  background-color: #ffe0f0;
+}
+.modal.pink .scrollbar-inner{
+  background-color: #fff0f7;
 }
 /**************************/
 .modal.orange .modal-dialog .title {
-  background-color: #ff6532;
+  background-color: #ff6633;
 }
 .modal.orange .modal-dialog h2 {
-  color: #ff6532;
+  color: #ff6633;
 }
 .modal.orange .modal-dialog .about-show {
-  background-color: #ff6532;
+  background-color: #ff6633;
 }
 .modal.orange .modal-dialog .tickets-link {
-  background-color: #ffb298;
+  background-color: #ffb299;
 }
 .modal.orange .cast-list a:hover{
-  background-color: #ff6532;
+  background-color: #ff6633;
 }
 .modal.orange .cast header{
-  background-color: #ff9470;
+  background-color: #ffd1c1;
+}
+.modal.orange .scrollbar-inner{
+  background-color: #ffe8e1;
 }
 /**************************/
 .modal.yellow .modal-dialog .title {
-  background-color: #e6b800;
+  background-color: #ffbe00;
 }
 .modal.yellow .modal-dialog h2 {
-  color: #e6b800;
+  color: #ffbe00;
 }
 .modal.yellow .modal-dialog .about-show {
-  background-color: #e6b800;
+  background-color: #ffbe00;
 }
 .modal.yellow .modal-dialog .tickets-link {
-  background-color: #ffe065;
+  background-color: #ffde7f;
 }
 .modal.yellow .cast-list a:hover{
-  background-color: #e6b800;
+  background-color: #ffbe00;
 }
 .modal.yellow .cast header{
-  background-color: #ffd633;
+  background-color: #ffebb2;
+}
+.modal.yellow .scrollbar-inner{
+  background-color: #fff5d9;
 }
 /**************************/
+
 .hidden-day,
 .hidden-time{
   display: none;
