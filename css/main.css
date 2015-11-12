@@ -1733,6 +1733,7 @@ h2.bold b {
 .cal-month {
   margin-bottom: 30px;
   position: relative;
+  padding-left: 30px;
 }
 .month-prev {
   position: absolute;
@@ -1950,7 +1951,7 @@ h2.bold b {
   display: none;
 }
 .comments-block{
-  float: right;
   width: 270px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
