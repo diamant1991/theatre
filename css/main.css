@@ -1730,6 +1730,9 @@ h2.bold b {
   position: relative;
   z-index: 4;
 }
+.date-block.top .number-day{
+  top: 20px;
+}
 .cal-month {
   margin-bottom: 30px;
   position: relative;
