@@ -518,7 +518,11 @@ h2.bold b {
   height: auto;
 }
 .poster-container.second {
-  padding-right: 70px;
+  padding-right: 60px;
+  padding-left: 10px;
+}
+.poster-container.left{
+  margin-left: -15px;
 }
 .poster-container .city {
   text-align: center;
@@ -675,7 +679,7 @@ h2.bold b {
   margin-top: 3px;
 }
 .left-content {
-  padding-left: 20px;
+  padding-left: 0;
 }
 .show {
   width: 270px;
