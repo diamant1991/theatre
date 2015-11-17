@@ -1,4 +1,5 @@
-@media(min-height: 800px){
+
+ @media (min-height : 800px) and (min-width: 767px){
 	.large-visible{
 		width: 935px;
 		position: absolute;
