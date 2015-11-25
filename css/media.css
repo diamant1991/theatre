@@ -10,6 +10,33 @@
 		padding-bottom: 0;
 	}
 }
+@media(min-height: 800px){
+	.large-visible .tickets.main-tickets{
+		line-height: 33px;
+	}
+	.large-visible  .carousel-caption .more{
+		line-height: 27px;
+	}
+	.large-visible .place{
+		height: 33px;
+	}
+}
+@media(min-height: 850px){
+	.large-visible .tickets.main-tickets{
+		line-height: 35px;
+	}
+	.large-visible .place{
+		height: 36px;
+	}
+	.large-visible  .carousel-caption .more{
+		line-height: 28px;
+	}
+	.large-visible .carousel-caption .tickets-link{
+		height: 34px;
+		position: relative;
+		top: 2px;
+	}
+}
 
 @media(min-width: 992px){
 	.visible-sm{

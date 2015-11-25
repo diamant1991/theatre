@@ -243,6 +243,12 @@ h2.bold b {
   font-size: 18px;
   font-family: 'HelveticaNeueCyrBold';
 }
+.large-visible .comment{
+  width: 100.5%;
+}
+.large-visible .tickets.main-tickets{
+  width: 100.5%;
+}
 .carousel-caption .more {
   width: 60%;
   margin-top: 59px;
@@ -434,6 +440,8 @@ h2.bold b {
 .small-img .name-show {
   width: 50%;
   margin-top: 66px;
+  height: 60px;
+  padding: 0;
 }
 .small-img .place {
   width: 50%;
@@ -1736,6 +1744,9 @@ h2.bold b {
 }
 .date-block.top .number-day{
   top: 20px;
+}
+.date-block.top-sec .number-day{
+  top: 10px;
 }
 .cal-month {
   margin-bottom: 30px;
