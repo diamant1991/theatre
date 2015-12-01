@@ -1008,6 +1008,7 @@ h2.bold b {
   background: url(../images/red-header.jpg) no-repeat 50%;
   background-size: cover;
 }
+
 .about.grey {
   background: #acacac;
 }
@@ -1103,6 +1104,125 @@ h2.bold b {
   background-color: red;
   margin-bottom: 30px;
 }
+.about.blue {
+  background: url(../images/blue-header.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.next-show.blue{
+  background-color: #3399ff;
+}
+.more.blue{
+  background-color: #71b8ff;
+}
+.tickets.blue{
+  background-color: #99ccff;
+}
+.cast-list.blue{
+  background-color: #e1f0ff;
+}
+.cast header.blue{
+  background-color: #c1e0ff;
+}
+.cast-list.blue a:hover{
+  background-color: #3399ff;
+}
+
+.about.yellow {
+  background: url(../images/yellow-header.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.next-show.yellow{
+  background-color: #ffbe00;
+}
+.more.yellow{
+  background-color: #ffd24d;
+}
+.tickets.yellow{
+  background-color: #ffdf80;
+}
+.cast-list.yellow{
+  background-color: #fff5d9;
+}
+.cast header.yellow{
+  background-color: #ffecb3;
+}
+.cast-list.yellow a:hover{
+  background-color: #ffbe00;
+}
+
+
+.about.pink {
+  background: url(../images/pink-header.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.next-show.pink{
+  background-color: #ff99cc;
+}
+.more.pink{
+  background-color: #ffb8db;
+}
+.tickets.pink{
+  background-color: #ffcce5;
+}
+.cast-list.pink{
+  background-color: #fff0f7;
+}
+.cast header.pink{
+  background-color: #ffe0f0;
+}
+.cast-list.pink a:hover{
+  background-color: #ff99cc;
+}
+
+.about.purple {
+  background: url(../images/purple.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.next-show.purple{
+  background-color: #9933ff;
+}
+.more.purple{
+  background-color: #b871ff;
+}
+.tickets.purple{
+  background-color: #cc99ff;
+}
+.cast-list.purple{
+  background-color: #f0e1ff;
+}
+.cast header.purple{
+  background-color: #e0c1ff;
+}
+.cast-list.purple a:hover{
+  background-color: #9933ff;
+}
+
+.about.orange {
+  background: url(../images/orange-header.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.next-show.orange{
+  background-color: #ff6633;
+}
+.more.orange{
+  background-color: #ff9471;
+}
+.tickets.orange{
+  background-color: #ffb299;
+}
+.cast-list.orange{
+  background-color: #ffe8e1;
+}
+.cast header.orange{
+  background-color: #ffd1c1;
+}
+.cast-list.orange a:hover{
+  background-color: #ff6633;
+}
+
+
+
+
 .next-show h4 {
   font-size: 18px;
   font-family: 'HelveticaNeueCyrBold';
