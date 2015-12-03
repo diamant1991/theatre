@@ -35,6 +35,13 @@ $(document).ready(function() {
 	});
 	// end accardeon
 
+	function visibleSocial(){
+		$('.share-link').click(function(event) {
+			$(this).parent().find('.share-social').toggleClass('active');
+		});
+	}
+	visibleSocial()
+
 	// date function
 		$('.number-date').click(function() {
 			var day = $(this).find('.hidden-day').html();
