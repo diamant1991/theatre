@@ -42,19 +42,6 @@
 	.visible-sm{
 		display: none !important;
 	}
-}
-@media(min-width: 768px){
-	.visible-xs{
-		display: none !important;
-	}
-}
-
-@media(min-width: 1171px){
-	.nav{
-		width: 1170px;
-		left: 50%;
-		margin-left: -585px;
-	}
 	.nav .nav-list{
 	  background: #ebebeb;
 	  width: 320px;
@@ -69,6 +56,20 @@
 	.nav.active .nav-list{
     left: 235px;
   }
+}
+@media(min-width: 768px){
+	.visible-xs{
+		display: none !important;
+	}
+}
+
+@media(min-width: 1171px){
+	.nav{
+		width: 1170px;
+		left: 50%;
+		margin-left: -585px;
+	}
+	
 }
 
 @media(max-width: 1170px){
