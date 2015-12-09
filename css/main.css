@@ -1220,6 +1220,29 @@ h2.bold b {
   background-color: #ff6633;
 }
 
+.about.green {
+  background: url(../images/green-header.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.next-show.green{
+  background-color: #009999;
+}
+.more.green{
+  background-color: #4db8b8;
+}
+.tickets.green{
+  background-color: #7fcccc;
+}
+.cast-list.green{
+  background-color: #d9f0f0;
+}
+.cast header.green{
+  background-color: #b2e0e0;
+}
+.cast-list.green a:hover{
+  background-color: #009999;
+}
+
 
 
 
