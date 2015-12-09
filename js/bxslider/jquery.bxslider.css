@@ -32,6 +32,7 @@ ul.bxslider {
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
   padding-top: 10px;
+  z-index: 3;
 }
 /** THEME
 ===================================*/
@@ -107,7 +108,7 @@ ul.bxslider {
   width: 14px;
   height: 24px;
   text-indent: -9999px;
-  z-index: 9999;
+  z-index: 2;
 }
 .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
